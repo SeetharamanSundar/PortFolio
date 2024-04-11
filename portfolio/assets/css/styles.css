@@ -195,8 +195,11 @@ img {
   align-self: left;
 }
 .home__title {
-  font-size: var(--big-font-size);
+  /* font-size: var(--big-font-size); */
   margin-bottom: var(--mb-5);
+  font-size: 41px;
+
+ 
 }
 .home__title-color {
   color: var(--first-color);
@@ -218,14 +221,15 @@ img {
   position: absolute;
   right: 0;
   bottom: 0;
-  width: 260px;
+  width: 160px;
+  border-radius: 0%;
 }
 .home__blob {
   fill: var(--first-color);
 }
 .slider-img {
   width: 60%px;
-  position: flex;
+  position:relative;
 }
 
 /*BUTTONS*/
